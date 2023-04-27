@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Miriam+Libre&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+}
+
+li,
+a,
+button {
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 4px 50px 4px;
+  border-radius: 6px;
+  margin: 3px;
+  box-shadow: 0.5px 0.5px 7px 0.5px #08e1e9;
+  background-image: url(./src/totorobanner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: difference,darken;
+  background-attachment: scroll;
+
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0px 2px;
+}
+
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+  color: #d4ff14;
+}
+
+.logoKermit {
+  padding: 0.3rem;
+  width: 50px;
+  margin-left: 1px;
+}
+
+button {
+  padding: 0.5px 1px 0.5px 1px;
+  margin: 0.5px;
+  background-color: #df10a14d;
+  border-color: transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+
+}
+
+
+button:hover {
+  background-color: #e6a8a8;
+}
+
+
+.botonSteam {
+  color: rgb(255, 217, 1);
+  font-weight: 800;
+}
+
+.botonContacto {
+  color: rgb(136, 255, 1);
+  font-weight: 800;
+}
+.botonGithub {
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+}
